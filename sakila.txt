@@ -3,6 +3,15 @@
 2.  -- SELECT * FROM sakila.actor;
     -- WHERE last_name="HOPPER";
 
-
 3.  --SELECT * FROM sakila.film
     --ORDER by length ASC;
+
+//ini untuk setiap first_name memiliki huruf "CE"
+4.  --SELECT * FROM sakila.customer
+    --WHERE first_name LIKE '%CE%';
+
+//ini untuk first_name diawali dengan huruf "CE"
+    --SELECT * FROM sakila.customer
+    --WHERE first_name LIKE 'CE%';
+
+5.
