@@ -16,3 +16,8 @@
 
 5.  --SELECT * FROM sakila.payment
     --WHERE amount>5.00;
+
+6.  --SELECT * FROM sakila.city
+    --INNER JOIN sakila.country
+    --ON sakila.city.country_id = sakila.country.country_id
+    --WHERE country="India";
