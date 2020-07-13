@@ -14,4 +14,5 @@
     --SELECT * FROM sakila.customer
     --WHERE first_name LIKE 'CE%';
 
-5.
+5.  --SELECT * FROM sakila.payment
+    --WHERE amount>5.00;
