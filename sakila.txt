@@ -49,3 +49,17 @@ FROM
     sakila.customer
 WHERE
     store_id = 1;
+
+10.SELECT 
+    sakila.country.country
+FROM
+    sakila.customer
+        JOIN
+    sakila.address ON sakila.customer.address_id = sakila.address.address_id
+        JOIN
+    sakila.city ON sakila.city.city_id = sakila.address.city_id
+        JOIN
+    sakila.country ON sakila.country.country_id = sakila.city.country_id
+WHERE
+    first_name = 'BERNICE'
+        AND last_name = 'WILLIS';
