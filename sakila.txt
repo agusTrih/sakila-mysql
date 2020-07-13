@@ -1,0 +1,5 @@
+1. SELECT * FROM sakila.film;
+
+2.  -- SELECT * FROM sakila.actor;
+    -- WHERE last_name='HOOPER';
+    //HOOPER TIDAK DITEMUKAN
