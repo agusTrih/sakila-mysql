@@ -21,3 +21,13 @@
     --INNER JOIN sakila.country
     --ON sakila.city.country_id = sakila.country.country_id
     --WHERE country="India";
+
+7.  SELECT 
+    film.film_id, film.title, film_category.category_id, category.name
+FROM
+    sakila.film_category
+        INNER JOIN
+    sakila.film ON sakila.film.film_id = sakila.film_category.film_id
+        INNER JOIN
+    sakila.category ON sakila.film_category.category_id = sakila.category.category_id
+WHERE sakila.category.name = 'Drama';
