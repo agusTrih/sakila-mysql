@@ -42,3 +42,10 @@ FROM
     sakila.category ON film_category.category_id = category.category_id
 WHERE
     name = 'Action' AND rating = 'PG';
+
+9.SELECT 
+    COUNT(customer_id)
+FROM
+    sakila.customer
+WHERE
+    store_id = 1;
